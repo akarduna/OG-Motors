@@ -8,19 +8,18 @@ import Header from './Components/Header';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <body className='App-header'>
         <Box 
           sx={{
             backgroundImage:`url(${Car})`,
             backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            height: "1012px",
-            width: "100%"
-            
-          }}>
+            backgroundSize: "100%, auto",
+            width:"100%"
+          }}
+          height="100vh">
             <Header></Header>
         </Box>
-      </header>
+      </body>
     </div>
   );
 }

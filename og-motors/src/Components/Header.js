@@ -22,7 +22,7 @@ export default function Header(){
               flexFlow: "column",
               height: "100%"
             }} justifyContent="center">
-              <Grid2 container spacing={2} justifyContent="center">
+              <Grid2 container spacing={8} justifyContent="center">
                 <Grid2 size="auto">
                   Mission
                 </Grid2>
