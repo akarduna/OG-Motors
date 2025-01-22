@@ -4,6 +4,7 @@ import './App.css';
 import { Box, Grid2, Typography } from '@mui/material';
 import Header from './Components/Header';
 import Future from './Components/Future';
+import Mission from './Components/Mission';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Header></Header>
             <Future/>
         </Box>
+        <Mission></Mission>
       </body>
     </div>
   );
