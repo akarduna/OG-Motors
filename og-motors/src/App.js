@@ -3,6 +3,7 @@ import Car from './Assets/Car.jfif'
 import './App.css';
 import { Box, Grid2, Typography } from '@mui/material';
 import Header from './Components/Header';
+import Future from './Components/Future';
 
 
 function App() {
@@ -18,11 +19,7 @@ function App() {
           }}
           height="100vh">
             <Header></Header>
-            <Box display="flex" height="30%" justifyContent="center" alignItems="flex-end">
-              <Typography variant='h2' gutterBottom>
-                Experience The Future
-              </Typography>
-            </Box>
+            <Future/>
         </Box>
       </body>
     </div>
