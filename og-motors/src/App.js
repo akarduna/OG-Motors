@@ -5,6 +5,7 @@ import { Box, Grid2, Typography } from '@mui/material';
 import Header from './Components/Header';
 import Future from './Components/Future';
 import Mission from './Components/Mission';
+import OurTeam from './Components/OurTeam';
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
             <Future/>
         </Box>
         <Mission></Mission>
+        <br></br>
+        <OurTeam></OurTeam>
       </body>
     </div>
   );
